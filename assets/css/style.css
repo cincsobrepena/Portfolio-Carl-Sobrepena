@@ -3,3 +3,134 @@
 *{
     box-sizing: border-box;
 }
+
+body {
+    background-color: #EDE0D4;
+}
+
+nav{
+    background-color: #352216;
+    
+}
+
+.nav-logo {
+    color: #E6CCB2;
+    font-size: xx-large;
+}
+
+a{
+    color: #E6CCB2;
+}
+a:hover{
+    color: #EDE0D4;
+}
+
+
+#contactMeBTN {
+    color: #E6CCB2;
+    background-color: #7F5539;
+    padding: 10px;
+    border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    box-shadow: 8px 10px 36px 10px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 8px 10px 36px 10px rgba(0,0,0,0.18);
+    -moz-box-shadow: 8px 10px 36px 10px rgba(0,0,0,0.18);
+}
+
+#contactMeBTN:hover{
+    color: #EDE0D4;
+}
+
+.home-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    background-color: #DDB892;
+}
+
+.profile-picture {
+    height: 100vh;
+    /* border-radius: 15%; */
+}
+
+.profile-content {
+    width: fit-content;
+    /* margin: 10em; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+}
+
+.profile-header {
+    color: #352216;
+    font-size:xxx-large;
+    font-weight:bold;
+    /* margin-bottom: .5em; */
+}
+
+.profile-description{
+    color: 352216;
+    /* word-wrap: break-word; */
+    width: 30em;
+    font-size: x-large;
+}
+
+#getInTouchBTN {
+    background-color: #7F5539;
+    color: white;
+    padding: .8rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#resumeBTN {
+    color: black;
+    border-width: 3px;
+    border-color: #352216;
+    padding: .7rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.skills-container{ 
+    height: 100vh;
+    width: 100%;
+    background-color: #E6CCB2;
+    padding-left: 5em;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.skills-header {
+    font-size: 10vh;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+.skill-row{
+    width: 100%;
+    padding-left: 5em;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+.skill {
+   height: 20vh;
+    margin-left:10em;
+    margin-right:10em;
+    margin-bottom: 5em;
+}
