@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,10 @@
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>CARL SOBREPEÑA</title>
+        <link rel="stylesheet" href="assets/css/skill.css">
+        <title>CARL SOBREPEÑA - SKILLS</title>
     </head>
-    <body">
-        <!-- Create HOME PAGE, ABOUT ME, IMAGE/PROJECT GALLERY, CONTACT US -->
-
-        <!-- NAVBAR -->
+    <body>
         <nav class="p-5 text-white shadow md:flex md:items-center md:justify-between">
             <div class="flex justify-between items-center">
                 <span class="nav-logo font-semibold text-2xl font-[Poppins] cursor-pointer">CS Portfolio</span>
@@ -25,19 +23,16 @@
             <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute ulbg w-full left-0 md:w-auto 
                         md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top=[-400px] transition-all ease-in duration-500">
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class=" text-lg ">HOME</a>
+                    <a href="index.html" class=" text-lg ">HOME</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class="text-xl ">ABOUT ME</a>
+                    <a href="about-me.html" class="text-xl ">ABOUT ME</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class="text-xl ">SKILLS</a>
+                    <a href="skills.html" class="text-xl ">SKILLS</a>
                 </li>
                 <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class="text-xl ">PROJECTS</a>                    
-                </li>
-                <li class="mx-4 my-6 md:my-0">
-                    <a href="#" class="text-xl ">GALLERY</a>
+                    <a href="projects.html" class="text-xl ">PROJECTS</a>                    
                 </li>
 
                 <button class="mx-4 my-6 md:my-0 text-xl" id="contactMeBTN">
@@ -46,45 +41,17 @@
             </ul>
         </nav>
 
-        <!-- HOME PAGE -->
-        
-        <div class="home-container">
-            <div class="profile-content">
-                <h1 class="profile-header">Hi! I'm Carl Sobrepeña<br></h1>
-                <h3 class="profile-description">An undergraduate student at CIIT 
-                    College of Arts and Technology majoring in Computer Science. 
-                    Most of my time was spent working on the front-end. Another 
-                    thing on my to-do list is to learn Fullstack Web development 
-                    and Machine Learning. Learn more about me.</h3>
-                <div class="profile-buttons">
-                    <button id="getInTouchBTN">Get in touch</button>
-                    <button id="resumeBTN">Resume</button>
-                </div>
-            </div>
-            <img class="profile-picture" src="assets/graphics/profile-picture.png" alt="profile-picture">
-        </div>
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#DDB892" fill-opacity="1" d="M0,224L26.7,234.7C53.3,245,107,267,160,234.7C213.3,203,267,117,320,90.7C373.3,64,427,96,480,122.7C533.3,149,587,171,640,176C693.3,181,747,171,800,181.3C853.3,192,907,224,960,224C1013.3,224,1067,192,1120,170.7C1173.3,149,1227,139,1280,154.7C1333.3,171,1387,213,1413,234.7L1440,256L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg> -->
-
-        <!-- <div class="cv-container">
-
-        </div> -->
-
-        <!-- SKILLS -->
         <div class="skills-container">
-            <h1 class="skills-header">SKILLS</h1>
+            <h1 id="div-skill" class="skills-header">SKILLS</h1>
             <div class="skill-row">
                 <img class="skill" src="assets/graphics/logo-html.png" alt="logo-html">
                 <img class="skill" src="assets/graphics/logo-css.png" alt="logo-css">
                 <img class="skill" src="assets/graphics/logo-javascript.png" alt="logo-javascript">
-            </div>
-            <div class="skill-row">
                 <img class="skill" src="assets/graphics/logo-github.png" alt="logo-github">
                 <img class="skill" src="assets/graphics/logo-tailwind.png" alt="logo-tailwind">
                 <img class="skill" src="assets/graphics/logo-firebase.png" alt="logo-firebase">
             </div>
         </div>
-
     </body>
-
     <script src="assets/js/script.js"></script>
 </html>
