@@ -50,11 +50,30 @@
     cursor: pointer;
 }
 
+#web-calculator{
+    background-image: url("../graphics/bg-web-calculator.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#dota2-dictionary {
+    background-image: url("../graphics/bg-dota2-dictionary.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#pahimakas {
+    background-image: url("../graphics/bg-pahimakas.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
 .label{
-    color: #352216;
+    color: rgb(255, 255, 255);
     padding: 2em;
     font-size: xx-large;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
 @media only screen and (max-width: 1200px) {

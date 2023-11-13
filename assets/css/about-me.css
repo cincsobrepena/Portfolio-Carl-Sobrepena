@@ -1,5 +1,4 @@
 .aboutme-container {
-    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -22,15 +21,12 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5em;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .profile-header {
     color: #352216;
     font-size:xxx-large;
     font-weight:bold;
-    /* margin-bottom: .5em; */
 }
 
 .profile-description{
@@ -38,7 +34,6 @@
     word-wrap: break-word;
     width: inherit;
     font-size: x-large;
-    /* padding: 2em; */
 }
 
 .profile-buttons{
@@ -47,37 +42,6 @@
     justify-content: center;
 }
 
-#getInTouchBTN {
-    background-color: #7F5539;
-    color: white;
-    padding: .8rem;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#getInTouchBTN:hover {
-    background-color: #6f3c19;
-    color: whitesmoke;
-}
-
-#resumeBTN {
-    color: black;
-    border-width: 3px;
-    border-color: #352216;
-    padding: .7rem;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#resumeBTN:hover{
-    color: #7F5539;
-    border-color: #7F5539;
-}
 
 @media only screen and (max-width: 768px) {
     .home-container {
@@ -101,4 +65,3 @@
     }
 
 }
-
